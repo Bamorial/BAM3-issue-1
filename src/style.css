@@ -3,8 +3,14 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
-body{
+.bodyCol{
   background-color:rgb(247, 241, 232);
+}
+.brownCol{
+  background-color: #442929;
+}
+.txt{
+  color: rgb(247, 241, 232);
 }
 .center{
   position: absolute;
@@ -15,3 +21,4 @@ body{
   width: 1000px;
   height: 1000px;
 }
+
