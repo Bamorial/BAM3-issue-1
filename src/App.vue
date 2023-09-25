@@ -23,8 +23,8 @@ const scrolling = (e) => {
 </script>
 <template>
   <div :class="{brownCol: isBrown}" @wheel="scrolling"  @touchmove="scrolling" class=" h-screen w-screen flex items-center justify-center flex-col bodyCol">
-  <div :class="{txt:isBrown}" class="m-6 font-primary text-2xl text-primary md: text-[20px] lg: text-[40px]">{{ name }}</div>
-  <div v-if="isActive" class=" font-mono text-primary text-[10px] -mt-6  ">SEASON 3.0 WEB ADVENTURE ISSUE 1</div>
+  <div :class="{txt:isBrown}" class="m-6 font-primary text-xl text-primary ">{{ name }}</div>
+  <div v-if="isActive" class=" font-mono text-primary text-[10px] -mt-4 md: -mt-6  ">SEASON 3.0 WEB ADVENTURE ISSUE 1</div>
   <div>
  <img src="./assets/map.svg" alt="">
 
