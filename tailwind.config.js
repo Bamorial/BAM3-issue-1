@@ -9,6 +9,8 @@ export default {
       },
       colors: {
         primary: "#442929",
+        digitalBg: "#1D242F",
+        digitalTxt: "#00FF0A",
       },
     },
   },
