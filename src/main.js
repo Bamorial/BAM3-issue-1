@@ -21,7 +21,7 @@ const router = createRouter({
     },
     {
       path: "/SumSweet",
-      name: "Introduction",
+      name: "SumSweet",
       component: Issue2,
     },
   ],
