@@ -17,6 +17,7 @@ $$$$$$$  |$$ |$$$$$$$  |\$$$$$$$\ \$$$$$$  |  \$  /   \$$$$$$$\ $$ |
   <div class="flex flex-col">
     <RouterLink :to="{path:'Introduction'}" ontouchstart=""  class=" font-mono text-digitalTxt pl-4 pt-4 hover:text-[#95FF99] active:text-[#95FF99]  ">-->Issue #1: Introduction</RouterLink>
     <RouterLink :to="{path:'SumSweet'}" ontouchstart=""  class=" font-mono text-digitalTxt pl-4 pt-4 hover:text-[#95FF99] active:text-[#95FF99]  ">-->Issue #2: Sum Sweet</RouterLink>
+    <RouterLink :to="{path:'Relax'}" ontouchstart=""  class=" font-mono text-digitalTxt pl-4 pt-4 hover:text-[#95FF99] active:text-[#95FF99]  ">-->Issue #3: Relax</RouterLink>
     
   </div>
  </div>

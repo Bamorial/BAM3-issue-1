@@ -1,20 +1,21 @@
-
 <script setup>
 import { ref } from 'vue';
 let img=ref("")
-let img2="https://i.ibb.co/1bjCD44/milk.png"
-let img1="https://i.ibb.co/BjKcFpG/milkshake.png"
+let imgList=["https://i.ibb.co/x6gkqqh/1.png","https://i.ibb.co/YhVrmFW/2.png","https://i.ibb.co/QbcbRT8/3.png","https://i.ibb.co/6XsnWVK/4.png","https://i.ibb.co/BCwN9Hw/5.png"]
 
 // "https://i.ibb.co/BjKcFpG/milkshake.png"
-
- img.value=img1
+let i=0;
+ img.value=imgList[i]
 function switchFunc(){
-    if(img.value===img1){
-        img.value=img2
-       
+    if(i<imgList.length-1){
+        i++;
+      img.value=imgList[i]
+
     }
     else{
-        img.value=img1
+        i=0;
+        img.value=imgList[i]
+
     }
 }
 </script>
@@ -25,4 +26,3 @@ function switchFunc(){
       
     </div>
 </template>
-
